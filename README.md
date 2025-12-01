@@ -109,7 +109,15 @@ This behavior is clearly reflected in the test error curve.
 The dataset forms two Gaussian clusters centered at $(0, 2)$ and $(0, -2)$.  
 Overlap between their tails around $x_2 \approx 0$ produces a non-zero Bayes risk.
 
+<p align="center">
+  <img src="training_data_scatter.png" width="550">
+</p>
+
 ### Bayes Risk and k-NN Error
+
+<p align="center">
+  <img src="risk_curve.png" width="550">
+</p>
 
 The curves exhibit the expected bias–variance trade-off:
 
@@ -120,6 +128,10 @@ The curves exhibit the expected bias–variance trade-off:
 The estimated Bayes risk is always lower than the classifier error, as required by theory.
 
 ### Heatmap of $\hat{\eta}(x)$
+
+<p align="center">
+  <img src="heatmap.png" width="550">
+</p>
 
 For $k = 31$, we plot a probability heatmap showing:
 
